@@ -1,0 +1,23 @@
+/*
+Crie uma função que receba um valor e informe se ele é positivo ou não.
+*/
+#include <stdio.h>
+
+int positivo(int num) {
+  if (num > 0) {
+    printf("É positivo");
+  } 
+  else {
+    printf("É negativo");
+  }
+  return num;
+}
+int main(void) {
+  int num;
+
+  printf("Insira algum valor inteiro: \n");
+  scanf("%d", &num);
+
+  num = positivo(num);
+  return 0;
+}
