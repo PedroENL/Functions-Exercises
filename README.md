@@ -1,2 +1,2 @@
 # Functions-Exercises
-Just some questions about functions in C language.
+Just a study of functions in C language.
